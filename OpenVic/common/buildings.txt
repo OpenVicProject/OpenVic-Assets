@@ -1,0 +1,38 @@
+tool_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		stone = 1000
+		wood = 1000
+	}
+	time = 730
+	visibility = yes
+	onmap = no
+
+	production_type = tool_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
+pointy_stick_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		tool = 300
+		stone = 400
+		wood = 400
+	}
+	time = 730
+	visibility = yes
+	onmap = no
+
+	production_type = pointy_stick_factory
+	pop_build_factory = yes
+}
