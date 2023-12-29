@@ -1,0 +1,30 @@
+sprite = 6
+strata = poor
+allowed_to_vote = no
+is_slave = yes
+color = { 220 126 168 }
+unemployment = yes
+
+rebel = {
+	stickmen = 1
+}
+
+life_needs = {
+}
+
+everyday_needs = {
+}
+
+luxury_needs = {
+	cooked_food = 200
+}
+
+ideologies = {
+}
+
+issues = {
+} 
+
+migration_target = {
+	factor = 0
+}

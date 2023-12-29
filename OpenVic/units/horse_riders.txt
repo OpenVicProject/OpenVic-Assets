@@ -1,0 +1,36 @@
+horse_riders = {
+	icon = 2
+	
+	type = land
+	sprite = HorseRiders
+	active = yes
+	unit_type = cavalry
+	primary_culture = yes
+	accepted_culture = yes
+	floating_flag = yes
+	
+	priority = 1
+	max_strength = 5
+	default_organisation = 50
+	maximum_speed = 6.00
+	weighted_value = 2.0
+
+	build_time = 80
+	build_cost = {
+		pointy_stick = 50
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		cooked_food = 5
+		pointy_stick = 0.5
+		raw_food = 10
+	}
+
+	reconnaissance = 3
+	attack = 10
+	defence = 10
+	discipline = 0.8
+	support = 0
+	maneuver = 2
+}

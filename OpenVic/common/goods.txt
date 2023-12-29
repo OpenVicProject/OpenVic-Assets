@@ -1,0 +1,59 @@
+military_goods = {
+	pointy_stick = {
+		cost = 5.00
+		color = {
+			34
+			55
+			111
+		}
+	}
+}
+
+raw_material_goods = {
+	wood = {
+		cost = 1.00
+		color = {
+			125
+			254
+			218
+		}
+	}
+	stone = {
+		cost = 1.00
+		color = {
+			178
+			76
+			169
+		}
+	}
+	raw_food = {
+		cost = 2.00
+		color = {
+			96
+			45
+			66
+		}
+	}
+}
+
+industrial_goods = {
+	tool = {
+		cost = 3.00
+		color = {
+			240
+			247
+			205
+		}
+	}
+}
+
+consumer_goods = {
+	cooked_food = {
+		cost = 4.00
+		color = {
+			230
+			157
+			36
+		}
+	}
+}

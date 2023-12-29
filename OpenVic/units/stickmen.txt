@@ -1,0 +1,33 @@
+stickmen = {
+	icon = 1
+	
+	type = land
+	sprite = Stickmen
+	active = yes
+	unit_type = infantry
+	floating_flag = no
+	
+	priority = 1
+	max_strength = 5
+	default_organisation = 50
+	maximum_speed = 6.00
+	weighted_value = 2.0
+
+	build_time = 15
+	build_cost = {
+		pointy_stick = 50
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		cooked_food = 5
+		pointy_stick = 0.5
+	}
+
+	reconnaissance = 0
+	attack = 10
+	defence = 10
+	discipline = 1
+	support = 0
+	maneuver = 1
+}

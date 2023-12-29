@@ -1,0 +1,186 @@
+tool_producer_template = {
+	efficiency = {
+		
+	}
+	
+	owner = {
+		poptype = managers 
+		effect = input
+		effect_multiplier = -4
+	}
+	
+	employees = {		
+		{ 
+			poptype = slackers
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = workaholics 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+
+tool_consumer_template = {
+	efficiency = {
+		tool = 6
+	}
+	
+	owner = {
+		poptype = managers 
+		effect = input
+		effect_multiplier = -4
+	}
+	
+	employees = {		
+		{ 
+			poptype = slackers
+			effect = throughput
+			amount = 0.8
+		}		
+		{ 
+			poptype = workaholics 
+			effect = output
+			effect_multiplier = 1.5
+			amount = 0.2
+		}
+	
+	}
+	type = factory
+	workforce = 5000 
+}
+
+tool_factory = {
+	template = tool_producer_template
+	input_goods = { 
+		stone = 45
+		wood = 45
+	}
+	output_goods = tool 
+	value = 45
+	bonus = {
+		trigger = { trade_goods_in_state = stone }
+		value = 0.1
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = wood }
+		value = 0.1
+	}
+}
+
+pointy_stick_factory = {       
+	template = tool_consumer_template
+	input_goods = { 
+		stone = 15
+		wood = 15
+	}
+	output_goods = pointy_stick 
+	value = 15
+	bonus = {
+		trigger = { trade_goods_in_state = stone }
+		value = 0.1
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = wood }
+		value = 0.1
+	}
+	bonus = {
+		trigger = { has_building = tool_factory }
+		value = 0.05
+	}
+}
+
+RGO_template_farmers = {
+	owner = {
+		poptype = managers 
+		effect = throughput
+		effect_multiplier = 5.0
+	}
+		
+	employees = {
+		{ 
+			poptype = farmers 
+			effect = throughput
+			amount = 1
+		}
+		{ 
+			poptype = unpaid_interns 
+			effect = throughput
+			effect_multiplier = 2.0
+			amount = 1
+		}
+	}
+	
+	type = rgo
+	workforce = 40000
+}
+
+RGO_template_labourers = {
+	owner = {
+		poptype = managers 
+		effect = throughput
+		effect_multiplier = 5.0
+	}
+		
+	employees = {
+		{ 
+			poptype = labourers 
+			effect = throughput
+			amount = 1
+		}
+		{ 
+			poptype = unpaid_interns 
+			effect = throughput
+			effect_multiplier = 2.0
+			amount = 1
+		}
+	}
+	
+	type = rgo
+	workforce = 40000
+}
+
+stone_mine = {
+	template = RGO_template_labourers
+	output_goods = stone
+	value = 200
+	mine = yes
+}
+
+wood_lodge = {
+	template = RGO_template_labourers
+	output_goods = wood 
+	value = 200
+	farm = yes
+}
+
+hinterland = {
+	template = RGO_template_farmers
+	output_goods = raw_food 
+	value = 100
+	farm = yes
+}
+
+artisan_cooked_food = {
+	input_goods = {
+		raw_food = 80
+		wood = 80
+	}
+	output_goods = cooked_food
+	value = 80
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}

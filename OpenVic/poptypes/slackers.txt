@@ -1,0 +1,30 @@
+sprite = 5
+strata = poor
+color = { 44 255 213 }
+unemployment = yes
+
+rebel = {
+	stickmen = 1
+}
+
+life_needs = {
+	cooked_food = 200
+}
+
+everyday_needs = {
+	tool = 200
+}
+
+luxury_needs = {
+	pointy_stick = 200
+}
+
+ideologies = {
+}
+
+issues = {
+} 
+
+migration_target = {
+	factor = 0
+}
