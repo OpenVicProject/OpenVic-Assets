@@ -1,0 +1,61 @@
+personality = {
+	personality_1 = {
+		attack = 1
+	}
+	personality_2 = {
+		defence = 1
+	}
+	personality_3 = {
+		morale = 0.1
+		experience = 0.1
+	}
+	personality_4 = {
+		reconnaissance = 0.1
+	}
+	personality_5 = {
+		attack = -1
+		defence = -1
+	}
+	personality_6 = {
+		speed = -0.1
+	}
+	personality_7 = {
+		morale = -0.1
+	}
+	personality_8 = {
+		attrition = 0.1
+	}
+}
+
+background = {
+	background_1 = {
+		attack = 2
+		morale = 0.15
+	}
+	background_2 = {
+		defence = 2
+		organisation = 0.1
+	}
+	background_3 = {
+		speed = 0.15
+		reconnaissance = 0.15
+	}
+	background_4 = {
+		experience = 0.15
+	}
+	background_5 = {
+		attack = -2
+		morale = 0.15
+	}
+	background_6 = {
+		defence = -2
+		organisation = -0.1
+	}
+	background_7 = {
+		speed = -0.15
+		attrition = 0.2
+	}
+	background_8 = {
+		experience = -0.15
+	}
+}

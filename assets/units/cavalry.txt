@@ -1,0 +1,32 @@
+cavalry = {
+	icon = 3
+	type = land
+	sprite = Cavalry
+	unit_type = cavalry
+	active = yes
+	floating_flag = no
+	
+	priority = 15
+	max_strength = 3
+	default_organisation = 25
+	maximum_speed = 5.0
+	weighted_value = 3.0
+	
+	build_time = 60
+	build_cost = {
+		everyday_good = 15
+	}
+	
+	supply_consumption = 1.2
+	supply_cost = {
+		mil_upkeep_good = 0.3
+		everyday_good = 0.4
+	}
+	
+	reconnaissance = 2
+	attack = 3
+	defence = 2
+	discipline = 1.0
+	support = 0.0
+	maneuver = 2
+}

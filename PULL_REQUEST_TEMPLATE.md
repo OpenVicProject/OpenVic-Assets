@@ -1,0 +1,2 @@
+- [ ] I certify that I have read and understand [CONTRIBUTING.md](CONTRIBUTING.md).
+- [ ] I certify that this work is entirely in the public domain, or was created in whole by me, and that I have the right to submit it under the [CC0 license](LICENSE).

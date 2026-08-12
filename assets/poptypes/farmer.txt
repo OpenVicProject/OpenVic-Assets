@@ -1,0 +1,5 @@
+sprite = 2
+color = { 220 220 220 }
+strata = poor
+
+unemployment = yes

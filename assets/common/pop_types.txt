@@ -1,0 +1,7 @@
+promotion_chance = { factor = 1 }
+demotion_chance = { factor = 1 }
+migration_chance = { factor = 1 }
+colonialmigration_chance = { factor = 1 }
+emigration_chance = { factor = 1 }
+assimilation_chance = { factor = 1 }
+conversion_chance = { factor = 1 }

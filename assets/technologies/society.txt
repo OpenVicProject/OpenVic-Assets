@@ -1,0 +1,224 @@
+# ADMINISTRATION
+administration_1 = {
+	area = administration
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+administration_2 = {
+	area = administration
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+administration_3 = {
+	area = administration
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+administration_4 = {
+	area = administration
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+administration_5 = {
+	area = administration
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# PHILOSOPHY
+philosophy_1 = {
+	area = philosophy
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+philosophy_2 = {
+	area = philosophy
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+philosophy_3 = {
+	area = philosophy
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+philosophy_4 = {
+	area = philosophy
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+philosophy_5 = {
+	area = philosophy
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# ECONOMICS
+economics_1 = {
+	area = economics
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+economics_2 = {
+	area = economics
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+economics_3 = {
+	area = economics
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+economics_4 = {
+	area = economics
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+economics_5 = {
+	area = economics
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# INSTITUTIONS
+institutions_1 = {
+	area = institutions
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+institutions_2 = {
+	area = institutions
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+institutions_3 = {
+	area = institutions
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+institutions_4 = {
+	area = institutions
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+institutions_5 = {
+	area = institutions
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}

@@ -1,0 +1,16 @@
+max_provinces = 65
+sea_starts = {
+	49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64
+}
+definitions = "definitions.csv"
+provinces = "provinces.bmp"
+positions = "positions.txt"
+terrain = "terrain.bmp"
+rivers = "rivers.bmp"
+terrain_definition = "terrain_definition.txt"
+tree_definition = "tree_definition.txt"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+region = "region.txt"
+region_sea = "region_sea.txt"
+province_flag_sprite = "province_flag_sprite"

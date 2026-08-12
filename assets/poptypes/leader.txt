@@ -1,0 +1,9 @@
+sprite = 5
+color = { 100 100 100 }
+strata = rich
+
+leadership = 1
+research_optimum = 0.01
+state_capital_only = yes
+demote_migrant = yes
+can_build = yes

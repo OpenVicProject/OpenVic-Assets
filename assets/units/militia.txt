@@ -1,0 +1,32 @@
+militia = {
+	icon = 1
+	type = land
+	sprite = Militia
+	unit_type = infantry
+	active = yes
+	floating_flag = no
+	
+	priority = 1
+	max_strength = 3
+	default_organisation = 15
+	maximum_speed = 4.0
+	weighted_value = 1.0
+	
+	build_time = 30
+	build_cost = {
+		life_good = 5
+	}
+	
+	supply_consumption = 0.5
+	supply_cost = {
+		mil_upkeep_good = 0.1
+		everyday_good = 0.2
+	}
+	
+	reconnaissance = 0
+	attack = 2
+	defence = 3
+	discipline = 0.5
+	support = 0.0
+	maneuver = 1
+}

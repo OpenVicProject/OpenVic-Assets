@@ -1,0 +1,6 @@
+sprite = 8
+color = { 20 20 20 }
+strata = poor
+
+unemployment = yes
+can_work_factory = yes

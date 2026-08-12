@@ -1,0 +1,37 @@
+steam_combat = {
+	icon = 3
+	naval_icon = 3
+	floating_flag = yes
+	type = naval
+	sprite = SteamCombat
+	unit_type = light_ship
+	capital = yes
+	active = no
+	move_sound = steam_move
+	select_sound = steam_selected
+	
+	priority = 30
+	max_strength = 100
+	default_organisation = 40
+	maximum_speed = 10
+	weighted_value = 40.0
+	
+	build_time = 360
+	build_cost = {
+		mil_build_good = 50
+		fancy_good = 5
+	}
+	min_port_level = 3
+	limit_per_port = -1
+	
+	supply_consumption = 1.5
+	supply_consumption_score = 1.5
+	supply_cost = {
+		mil_upkeep_good = 1.5
+	}
+	
+	hull = 80
+	gun_power = 60
+	fire_range = 1.0
+	evasion = 0
+}

@@ -1,0 +1,184 @@
+factory_template = {
+	type = factory
+	workforce = 1000
+
+	efficiency = {
+		construction_good = 0.01
+	}
+
+	owner = {
+		poptype = admin
+		effect = output
+		effect_multiplier = 2
+	}
+
+	employees = {
+		{
+			poptype = worker
+			effect = throughput
+		}
+	}
+}
+rgo_template = {
+	type = rgo
+	workforce = 10000
+
+	owner = {
+		poptype = admin
+		effect = output
+	}
+
+	employees = {
+		{
+			poptype = farmer
+			effect = throughput
+			amount = 1
+		}
+		{
+			poptype = slave
+			effect = output
+			amount = 1
+		}
+	}
+}
+
+# RGO Production Types
+money_farm = {
+	template = rgo_template
+	output_goods = money_good
+	value = 1
+	farm = yes
+}
+raw_material_mine = {
+	template = rgo_template
+	output_goods = raw_material_good
+	value = 10
+	mine = yes
+}
+life_good_farm = {
+	template = rgo_template
+	output_goods = life_good
+	value = 2
+	farm = yes
+}
+
+# Factory Production Types
+everyday_good_factory = {
+	template = factory_template
+	input_goods = {
+		raw_material_good = 0.9
+		life_good = 0.1
+	}
+	output_goods = everyday_good
+	value = 1
+	bonus = {
+		trigger = { trade_goods_in_state = life_good }
+		value = 0.1
+	}
+}
+luxury_good_factory = {
+	template = factory_template
+	input_goods = {
+		raw_material_good = 2
+		life_good = 0.4
+		everyday_good = 0.1
+	}
+	output_goods = luxury_good
+	value = 1
+	bonus = {
+		trigger = { has_building = everyday_good_factory }
+		value = 0.1
+	}
+}
+fancy_good_factory = {
+	template = factory_template
+	input_goods = {
+		raw_material_good = 4.5
+		life_good = 0.75
+		everyday_good = 0.5
+		luxury_good = 0.25
+	}
+	output_goods = fancy_good
+	value = 2
+}
+mil_upkeep_good_factory = {
+	template = factory_template
+	input_goods = {
+		raw_material_good = 1
+		life_good = 1
+	}
+	output_goods = mil_upkeep_good
+	value = 3
+}
+mil_build_good_factory = {
+	template = factory_template
+	input_goods = {
+		raw_material_good = 10
+	}
+	output_goods = mil_build_good
+	value = 2
+}
+construction_good_factory = {
+	template = factory_template
+	input_goods = {
+		raw_material_good = 10
+	}
+	output_goods = construction_good
+	value = 3
+}
+
+# Artisanal Production Types
+artisanal_everyday_good = {
+	type = artisan
+	workforce = 10000
+
+	input_goods = {
+		raw_material_good = 0.9
+		life_good = 0.1
+	}
+	output_goods = everyday_good
+	value = 1
+}
+artisanal_luxury_good = {
+	type = artisan
+	workforce = 10000
+
+	input_goods = {
+		raw_material_good = 2
+		life_good = 0.4
+		everyday_good = 0.1
+	}
+	output_goods = luxury_good
+	value = 1
+}
+artisanal_mil_upkeep_good = {
+	type = artisan
+	workforce = 10000
+
+	input_goods = {
+		raw_material_good = 1
+		life_good = 1
+	}
+	output_goods = mil_upkeep_good
+	value = 3
+}
+artisanal_mil_build_good = {
+	type = artisan
+	workforce = 10000
+
+	input_goods = {
+		raw_material_good = 10
+	}
+	output_goods = mil_build_good
+	value = 2
+}
+artisanal_construction_good = {
+	type = artisan
+	workforce = 10000
+
+	input_goods = {
+		raw_material_good = 10
+	}
+	output_goods = construction_good
+	value = 3
+}

@@ -1,0 +1,36 @@
+sail_combat = {
+	icon = 1
+	naval_icon = 1
+	floating_flag = yes
+	type = naval
+	sprite = SailCombat
+	unit_type = big_ship
+	capital = yes
+	active = yes
+	move_sound = sail_move
+	select_sound = sail_selected
+	
+	priority = 10
+	max_strength = 100
+	default_organisation = 20
+	maximum_speed = 5
+	weighted_value = 10.0
+	
+	build_time = 180
+	build_cost = {
+		mil_build_good = 20
+	}
+	min_port_level = 1
+	limit_per_port = -1
+	
+	supply_consumption = 0.5
+	supply_consumption_score = 0.5
+	supply_cost = {
+		mil_upkeep_good = 0.5
+	}
+	
+	hull = 20
+	gun_power = 10
+	fire_range = 0.5
+	evasion = 5
+}

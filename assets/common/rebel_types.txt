@@ -1,0 +1,165 @@
+ideological_regime_rebels = {
+	icon = 1
+	ideology = ideology_1a
+	area = nation
+	
+	break_alliance_on_win = yes
+	
+	government = {
+		ideology_1_government = ideology_1_democratic_government
+		ideology_1_democratic_government = ideology_1_government
+		ideology_2_government = ideology_1_government
+	}
+	
+	defection = none
+	independence = none
+	defect_delay = 12
+	
+	allow_all_cultures = yes
+	allow_all_religions = yes
+	allow_all_ideologies = yes
+	
+	resilient = yes
+	reinforcing = yes
+	general = yes
+	smart = yes
+	unit_transfer = yes
+	
+	occupation_mult = 1.5
+
+	will_rise = {
+		factor = 0.4
+		modifier = {
+			war = yes
+			factor = 1.5
+		}
+	}
+	
+	spawn_chance = {
+		factor = 1.0
+		modifier = {
+			factor = 1.5
+			OR = {
+				pop_majority_ideology = ideology_1a
+				pop_majority_ideology = ideology_1b
+			}
+		}
+		modifier = {
+			factor = 0.5
+			pop_majority_ideology = ideology_2
+		}
+		modifier = {
+			factor = 0.2
+			country = { government = ideology_1_democratic_government }
+		}
+	}
+ 
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 1.0
+			is_capital = yes
+		}
+	}
+	
+	siege_won_trigger = {
+		is_capital = no
+	}
+	
+	siege_won_effect = {
+		militancy = 2
+	}
+	
+	demands_enforced_trigger = {
+		capital_scope = {
+			controlled_by = REB
+			province_control_days = 60
+		}
+	}
+	
+	demands_enforced_effect = {}
+}
+
+nationalist_splinter_rebels = {
+	icon = 2
+	ideology = ideology_2
+	area = culture_group
+	
+	break_alliance_on_win = no
+	
+	government = {
+		ideology_1_government = ideology_2_government
+		ideology_1_democratic_government = ideology_2_government
+	}
+	
+	defection = pan_nationalist
+	independence = culture
+	defect_delay = 6
+	
+	allow_all_cultures = no
+	allow_all_religions = yes
+	allow_all_ideologies = no
+	
+	resilient = no
+	reinforcing = no
+	general = no
+	smart = no
+	unit_transfer = no
+	
+	occupation_mult = 0.8
+	
+	will_rise = {
+		factor = 0.6
+		modifier = {
+			war_exhaustion = 5
+			factor = 1.2
+		}
+	}
+	
+	spawn_chance = {
+		factor = 1.0
+		modifier = {
+			factor = 2.5
+			pop_majority_ideology = ideology_2
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				pop_majority_ideology = ideology_1a
+				pop_majority_ideology = ideology_1b
+			}
+		}
+		modifier = {
+			factor = 3.0
+			is_primary_culture = no
+		}
+	}
+ 
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 3.0
+			average_militancy = 6
+		}
+		modifier = {
+			factor = 0.5
+			units_in_province = 2
+		}
+	}
+	
+	demands_enforced_trigger = {
+		independence = {
+			all_core = {
+				OR = {
+					controlled_by_rebels = yes
+					NOT = { owned_by = THIS }
+				}
+				province_control_days = 60
+			}
+		}
+	}
+	
+	demands_enforced_effect = {
+		release_vassal = REB
+	}
+}

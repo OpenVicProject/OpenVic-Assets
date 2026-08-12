@@ -1,0 +1,47 @@
+#TODO
+folders = {
+	warfare = {
+		land_doctrine
+		naval_doctrine
+		munitions
+		shipbuilding
+	}
+	production = {
+		infrastructure
+		resources
+		factories
+		engineering
+	}
+	society = {
+		administration
+		philosophy
+		economics
+		institutions
+	}
+}
+
+schools = {
+	default_school = {
+		warfare_research_bonus = 0.0
+		production_research_bonus = 0.0
+		society_research_bonus = 0.0
+	}
+
+	military_school = {
+		warfare_research_bonus = 0.2
+		production_research_bonus = -0.1
+		society_research_bonus = -0.1
+	}
+
+	domestic_school = {
+		warfare_research_bonus = -0.2
+		production_research_bonus = 0.1
+		society_research_bonus = 0.1
+	}
+
+	material_school = {
+		warfare_research_bonus = 0.1
+		production_research_bonus = 0.1
+		society_research_bonus = -0.2
+	}
+}

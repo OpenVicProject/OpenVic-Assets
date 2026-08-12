@@ -1,0 +1,17 @@
+# TODO
+government_reforms = {
+	reform_1 = {
+		yes_1 = {}
+		no_1 = {}
+	}
+}
+societal_reforms = {
+
+}
+unciv_reforms = {
+	
+}
+
+party_issues = {
+
+}
