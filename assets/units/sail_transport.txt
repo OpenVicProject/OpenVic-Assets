@@ -1,0 +1,35 @@
+sail_transport = {
+	icon = 2
+	naval_icon = 2
+	floating_flag = yes
+	type = naval
+	sprite = SailTransport
+	unit_type = transport
+	active = yes
+	move_sound = sail_move
+	select_sound = sail_selected
+	
+	priority = 5
+	max_strength = 100
+	default_organisation = 10
+	maximum_speed = 4
+	weighted_value = 5.0
+	
+	build_time = 120
+	build_cost = {
+		mil_build_good = 10
+	}
+	min_port_level = 1
+	limit_per_port = -1
+	
+	supply_consumption = 0.3
+	supply_consumption_score = 0.3
+	supply_cost = {
+		mil_upkeep_good = 0.3
+	}
+	
+	hull = 10
+	gun_power = 0
+	fire_range = 0.0
+	evasion = 2
+}

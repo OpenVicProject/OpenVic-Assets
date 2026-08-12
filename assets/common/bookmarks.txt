@@ -1,0 +1,14 @@
+bookmark = {
+	name = "FIRST_BOOKMARK_NAME"
+	desc = "FIRST_BOOKMARK_DESC"
+	date = 0.1.1
+	cameraX = 1 # TODO: ADJUST
+	cameraY = 1
+}
+bookmark = {
+	name = "SECOND_BOOKMARK_NAME"
+	desc = "SECOND_BOOKMARK_DESC"
+	date = 20.1.1
+	cameraX = 1
+	cameraY = 1
+}

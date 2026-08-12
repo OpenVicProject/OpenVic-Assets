@@ -1,0 +1,164 @@
+# Provincal Buildings
+railways = {   
+	type = infrastructure
+	spawn_railway_track = yes
+
+	max_level = 5
+	onmap = yes
+	province = yes
+	visibility = yes
+
+	goods_cost = {
+		raw_material_good = 100
+		construction_good = 100
+	}
+	time = 730
+	
+	infrastructure = 0.2
+	movement_cost = -0.1
+	
+	pop_build_factory = yes
+}
+ports = {    
+	type = naval_base
+	port = yes
+
+	max_level = 5
+	capital = yes
+	onmap = yes
+	province = yes
+	visibility = yes
+
+	cost = 10000
+	goods_cost = {
+		raw_material_good = 50
+		construction_good = 250
+	}
+	time = 1095
+
+	naval_capacity = 1
+	colonial_points = { 10 20 40 80 160 }
+	colonial_range = 100
+	local_ship_build = -0.1
+}
+fortifications = {
+	type = fort
+	fort_level = 2
+	
+	max_level = 10
+	one_per_state = yes
+	onmap = yes
+	province = yes
+	visibility = yes
+
+	cost = 10000
+	goods_cost = {
+		raw_material_good = 50
+		construction_good = 250
+	}
+	time = 365
+}
+
+# Factories
+everyday_good_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+
+	goods_cost = {
+		raw_material_good = 100
+		construction_good = 100
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	production_type = everyday_good_factory
+	pop_build_factory = yes
+	max_level = 100
+}
+luxury_good_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+
+	goods_cost = {
+		raw_material_good = 100
+		construction_good = 100
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	production_type = luxury_good_factory
+	pop_build_factory = yes
+	max_level = 100
+}
+fancy_good_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+
+	goods_cost = {
+		raw_material_good = 100
+		construction_good = 100
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	production_type = fancy_good_factory
+	pop_build_factory = yes
+	max_level = 100
+}
+mil_upkeep_good_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+
+	goods_cost = {
+		raw_material_good = 100
+		construction_good = 100
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	production_type = mil_upkeep_good_factory
+	pop_build_factory = yes
+	max_level = 100
+}
+mil_build_good_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+
+	goods_cost = {
+		raw_material_good = 100
+		construction_good = 100
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	production_type = mil_build_good_factory
+	pop_build_factory = yes
+	max_level = 100
+}
+construction_good_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+
+	goods_cost = {
+		raw_material_good = 100
+		construction_good = 100
+	}
+	time = 365
+	visibility = yes
+	onmap = no
+	
+	production_type = construction_good_factory
+	pop_build_factory = yes
+	max_level = 100
+}

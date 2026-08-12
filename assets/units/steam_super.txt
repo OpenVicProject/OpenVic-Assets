@@ -1,0 +1,38 @@
+steam_super = {
+	icon = 25
+	naval_icon = 5
+	floating_flag = yes
+	type = naval
+	sprite = SteamSuper
+	unit_type = big_ship
+	capital = yes
+	active = no
+	move_sound = steam_move
+	select_sound = steam_selected
+	
+	priority = 50
+	max_strength = 100
+	default_organisation = 50
+	maximum_speed = 12
+	weighted_value = 100.0
+	colonial_points = 25
+	
+	build_time = 540
+	build_cost = {
+		mil_build_good = 150
+		fancy_good = 25
+	}
+	min_port_level = 5
+	limit_per_port = 1
+	
+	supply_consumption = 3.0
+	supply_consumption_score = 3.0
+	supply_cost = {
+		mil_upkeep_good = 3.0
+	}
+	
+	hull = 150
+	gun_power = 120
+	fire_range = 1.5
+	evasion = 0
+}

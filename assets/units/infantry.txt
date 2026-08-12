@@ -1,0 +1,34 @@
+infantry = {
+	icon = 20
+	type = land
+	sprite = Infantry
+	unit_type = special
+	active = no
+	floating_flag = no
+	
+	priority = 50
+	max_strength = 3
+	default_organisation = 40
+	maximum_speed = 4.0
+	weighted_value = 10.0
+	
+	build_time = 120
+	build_cost = {
+		mil_build_good = 30
+		fancy_good = 10
+	}
+
+	supply_consumption = 2.0
+	supply_cost = {
+		mil_upkeep_good = 0.8
+		fancy_good = 0.2
+	}
+	
+	reconnaissance = 0
+	attack = 16
+	defence = 6
+	discipline = 1.0
+	support = 0.0
+	maneuver = 1
+	siege = 2
+}

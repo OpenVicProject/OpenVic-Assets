@@ -1,0 +1,5 @@
+sprite = 3
+color = { 180 180 180 }
+strata = poor
+
+can_be_recruited = yes

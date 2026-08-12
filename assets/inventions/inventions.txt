@@ -1,0 +1,7 @@
+# TODO: this only serves to prevent a segfault if no inventions are registered
+test_invention = {
+	limit = { infrastructure_1 = 1 }
+	news = no
+	chance = { base = 1 }
+	effect = {}
+}

@@ -1,0 +1,2 @@
+graphical_culture = GCT_2
+color = { 0 255 255 }

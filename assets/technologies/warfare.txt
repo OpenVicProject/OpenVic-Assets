@@ -1,0 +1,224 @@
+# LAND DOCTRINE
+land_doctrine_1 = {
+	area = land_doctrine
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+land_doctrine_2 = {
+	area = land_doctrine
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+land_doctrine_3 = {
+	area = land_doctrine
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+land_doctrine_4 = {
+	area = land_doctrine
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+land_doctrine_5 = {
+	area = land_doctrine
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# NAVAL DOCTRINE
+naval_doctrine_1 = {
+	area = naval_doctrine
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_2 = {
+	area = naval_doctrine
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_3 = {
+	area = naval_doctrine
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_4 = {
+	area = naval_doctrine
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+naval_doctrine_5 = {
+	area = naval_doctrine
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# MUNITIONS
+munitions_1 = {
+	area = munitions
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+munitions_2 = {
+	area = munitions
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+munitions_3 = {
+	area = munitions
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+munitions_4 = {
+	area = munitions
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+munitions_5 = {
+	area = munitions
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# SHIPBUILDING
+shipbuilding_1 = {
+	area = shipbuilding
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+shipbuilding_2 = {
+	area = shipbuilding
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+shipbuilding_3 = {
+	area = shipbuilding
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+shipbuilding_4 = {
+	area = shipbuilding
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+shipbuilding_5 = {
+	area = shipbuilding
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}

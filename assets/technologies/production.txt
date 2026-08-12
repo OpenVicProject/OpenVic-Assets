@@ -1,0 +1,224 @@
+# INFRASTRUCTURE
+infrastructure_1 = {
+	area = infrastructure
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+infrastructure_2 = {
+	area = infrastructure
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+infrastructure_3 = {
+	area = infrastructure
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+infrastructure_4 = {
+	area = infrastructure
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+infrastructure_5 = {
+	area = infrastructure
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# RESOURCES
+resources_1 = {
+	area = resources
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+resources_2 = {
+	area = resources
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+resources_3 = {
+	area = resources
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+resources_4 = {
+	area = resources
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+resources_5 = {
+	area = resources
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# FACTORIES
+factories_1 = {
+	area = factories
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+factories_2 = {
+	area = factories
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+factories_3 = {
+	area = factories
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+factories_4 = {
+	area = factories
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+factories_5 = {
+	area = factories
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+# ENGINEERING
+engineering_1 = {
+	area = engineering
+	year = 1
+	cost = 1000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+engineering_2 = {
+	area = engineering
+	year = 21
+	cost = 2000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+engineering_3 = {
+	area = engineering
+	year = 41
+	cost = 4000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+engineering_4 = {
+	area = engineering
+	year = 61
+	cost = 8000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}
+engineering_5 = {
+	area = engineering
+	year = 81
+	cost = 16000
+
+	# effect
+
+	ai_chance = {
+		factor = 1
+	}
+}

@@ -1,0 +1,16 @@
+religion_group_1 = {
+	religion_1a = {
+		icon = 1
+		color = { 255 0 0 }
+	}
+	religion_1b = {
+		icon = 2 
+		color = { 0 255 0 }
+	}
+}
+religion_group_2 = {
+	religion_2 = {
+		icon = 3
+		color = { 0 0 255 }
+	}
+}

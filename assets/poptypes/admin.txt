@@ -1,0 +1,7 @@
+sprite = 1
+color = { 255 255 255 }
+strata = rich
+
+administrative_efficiency = yes
+demote_migrant = yes
+can_build = yes

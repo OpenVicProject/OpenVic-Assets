@@ -1,0 +1,10 @@
+generic = {
+	leader = generic
+	unit = GCT_2
+
+	testish = {
+		color = { 0 255 255 }
+		first_names = { Name1 Name2 Name3 }
+		last_names = { Name1 Name2 Name3 }
+	}
+}

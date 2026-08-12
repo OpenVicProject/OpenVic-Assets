@@ -1,0 +1,23 @@
+ideology_1_government = {
+	ideology_1a = yes
+	ideology_1b = yes
+
+	election = no
+	appoint_ruling_party = yes
+}
+
+ideology_1_democratic_government = {
+	ideology_1a = yes
+	ideology_1b = yes
+
+	election = yes
+	duration = 12
+	appoint_ruling_party = no
+}
+
+ideology_2_government = {
+	ideology_2 = yes
+
+	election = no
+	appoint_ruling_party = no
+}

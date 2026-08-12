@@ -1,0 +1,71 @@
+# TODO: reflect these terrain definitions in terrain.bmp, which is currently a blank template
+terrain = 8
+
+categories = {
+	sea = {
+		color = { 0 0 255 }
+		movement_cost = 1.0
+		
+		is_water = yes
+	}
+	grassland = {
+		color = { 0 255 0 }
+
+		movement_cost = 1.0
+	}
+	desert = {
+		color = { 255 255 0 }
+
+		movement_cost = 1.5
+		defence = 1
+		combat_width = -0.25
+	}
+	mountain = {
+		color = { 255 0 0 }
+
+		movement_cost = 2.0
+		defence = 2
+		combat_width = -0.75
+	}
+}
+
+sea1 = {
+	type = sea
+	color = { 7 }
+	has_texture = no
+}
+grassland1 = {
+	type = grassland
+	color = { 0 }
+	priority = 0
+}
+grassland2 = {
+	type = grassland
+	color = { 1 }
+	priority = 1
+}
+grassland3 = {
+	type = grassland
+	color = { 2 }
+	priority = 2
+}
+grassland4 = {
+	type = grassland
+	color = { 3 }
+	priority = 3
+}
+desert1 = {
+	type = desert 
+	color = { 4 }
+	priority = 4
+}
+desert2 = {
+	type = desert
+	color = { 5 }
+	priority = 5
+}
+mountain1 = {
+	type = mountain
+	color = { 6 }
+	priority = 6
+}

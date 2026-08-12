@@ -1,0 +1,3 @@
+REB = "countries/rebels.txt"
+
+TST = "countries/test.txt"

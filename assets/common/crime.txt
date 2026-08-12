@@ -1,0 +1,5 @@
+#TODO
+test_crime = {
+	icon = 1
+	trigger = {}
+}

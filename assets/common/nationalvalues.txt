@@ -1,0 +1,15 @@
+national_value_honesty = {
+	tax_efficiency = 0.1
+}
+
+national_value_progress = {
+	research_points_modifier = 0.5
+}
+
+national_value_thrift = {
+	supply_consumption = -0.05
+}
+
+national_value_diligence = {
+	factory_output = 0.05
+}

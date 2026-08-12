@@ -1,0 +1,52 @@
+ideology_group_1 = {
+	ideology_1a = {
+		color = { 255 0 0 }
+
+		add_political_reform = {
+			base = 1
+		}
+		remove_political_reform = {
+			base = 1
+		}
+		add_social_reform = {
+			base = 1
+		}
+		remove_social_reform = {
+			base = 1
+		}
+	}
+	ideology_1b = {
+		color = { 0 255 0 }
+
+		add_political_reform = {
+			base = 0
+		}
+		remove_political_reform = {
+			base = 0
+		}
+		add_social_reform = {
+			base = 0
+		}
+		remove_social_reform = {
+			base = 0
+		}
+	}
+}
+ideology_group_2 = {
+	ideology_2 = {
+		color = { 0 0 255 }
+
+		add_political_reform = {
+			base = 0
+		}
+		remove_political_reform = {
+			base = 1
+		}
+		add_social_reform = {
+			base = 0
+		}
+		remove_social_reform = {
+			base = 1
+		}
+	}
+}
